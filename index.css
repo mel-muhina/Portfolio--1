@@ -1,212 +1,188 @@
 * {
- color: aliceblue;
- 
-}
-
-
-body {
- background-color: hsl(240, 100%, 10%);
- margin: 0 auto;
- font-family: 'Nunito Sans';
- font-size: 16px;
- 
- 
-} 
-
-
-
-/* Navigation Bar */
-
-.nav {
-    text-align: right; 
-    
-}
-
-.nav ul {
-    list-style-type: none; /* Remove default list styling */
-    margin: 0;
-    padding: 0;
-    
-}
-
-.nav li{
-   display: inline-flex;
-   
-   }
-
-   .nav a {
-    color: ##1a19ff;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 18px;
-    position: relative;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-    margin-left: 25px;
-    padding: 10px 20px;
-    border-bottom: 2px solid #FFF5EE;
-  }
-
-  .nav a:hover {
-    background-color: hsl(240, 60%, 50%);
-    border-bottom: 2px solid #6495ed;
-   }
-
-.nav a:active {
-    background-color: hsl(270, 100%, 60%);
-}
-
-.mel {
-border-radius: 300px;
-width: 350px;
-
-}
-
-
-/* Hero  */
-
-.intro {
-display: flex;
- background-image: url('stars2.jpg');
- background-color: hsla(240, 22%, 10%,0.5);
- background-blend-mode: overlay;
- background-size: cover;
- background-position: center;
- height: 50rem;
- margin-top: -50px;
- justify-content: center; /* Center the content horizontally */
- align-items: center; /* Center the content vertically */
- flex-direction: column; /* Stack items vertically */
-
-
- 
-}
-
-
-/* Website Portfolios */
-
-
-.portfolio-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  padding: 8rem 0;
-
- 
-}
-
-.portfolio-item {
-  width: 30%;
-  padding: 6px;
-  border-radius: 1rem;
+  color: aliceblue;
   
  }
-
-.portfolio-item img {
-  width: 100%;
-  border-radius: 1rem;
-  z-index: 1;
-}
-
-
-@media (max-width: 767px) {
-  .portfolio-item {
-    width: 100%;
+ 
+ 
+ body {
+  background-color: hsl(240, 100%, 10%);
+  margin: 0 auto;
+  font-family: 'Nunito Sans';
+  font-size: 16px;
+  
+  
+ } 
+ 
+ 
+ 
+ /* Navigation Bar */
+ 
+ .nav {
+     text-align: right; 
+     
+ }
+ 
+ .nav ul {
+     list-style-type: none; /* Remove default list styling */
+     margin: 0;
+     padding: 0;
+     
+ }
+ 
+ .nav li{
+    display: inline-flex;
+    
+    }
+ 
+    .nav a {
+     color: ##1a19ff;
+     text-decoration: none;
+     font-weight: 600;
+     font-size: 18px;
+     position: relative;
+     height: 30px;
+     line-height: 30px;
+     text-align: center;
+     margin-left: 25px;
+     padding: 10px 20px;
+     border-bottom: 2px solid #FFF5EE;
+   }
+ 
+   .nav a:hover {
+     background-color: hsl(240, 60%, 50%);
+     border-bottom: 2px solid #6495ed;
+    }
+ 
+ .nav a:active {
+     background-color: hsl(270, 100%, 60%);
+ }
+ 
+ .mel {
+ border-radius: 300px;
+ width: 350px;
+ 
+ }
+ 
+ 
+ /* Hero  */
+ 
+ .intro {
+ display: flex;
+  background-image: url('starsbg.jpg');
+  background-color: hsla(240, 22%, 10%,0.5);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  height: 50rem;
+  margin-top: -5rem;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  flex-direction: column; /* Stack items vertically */
+ 
+ 
+  
+ }
+ 
+ 
+ /* Website Portfolios */
+ 
+ 
+ .portfolio-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center; /* Center horizontally */
+   align-items: center; /* Center vertically */
+   padding: 8rem 0;
+  
+ }
+ 
+ .portfolio-item {
+   width: 30%;
+   padding: 6px;
+   text-align: center;
   }
-}
-
-
-
-.portfolio h2 {
+ 
+ .portfolio-item img {
+   width: 100%;
+ }
+ 
+ 
+ @media (max-width: 767px) {
+   .portfolio-item {
+     width: 100%;
+   }
+ }
+ 
+ 
+ 
+ .portfolio h2 {
+      margin: 0px;
+      padding-bottom: 0px;
+     
+     
+ }
+ 
+ 
+ 
+ /* Typography */
+ 
+ h1 {
+     font-size: 3.5rem;
+     font-family: 'Libre Baskerville';
+     font-weight: 900;
+ 
+ }
+ 
+ h2 {
+     font-size: 2rem;
+     text-align: center;
+ 
+ 
+ }
+ 
+ h2.tag {
+     font-family: 'Libre Baskerville';
+     font-weight: 900;
      margin: 0px;
-     padding-bottom: 0px;
+     padding: 0px;
+ }
+ 
+
+ /* About Me Section */
+ 
+ .about-me p {
+     display: flex;
+     margin: 0 auto;
+     text-align: center;
+     padding: 100px;
+     padding-bottom: 100px;
+     width: 80%;
+     font-size: 1.4rem;
+     opacity: 95%;
+     overflow: hidden;
     
-    
-}
+ }
+ 
+ /* Skills */
+ 
+ .skills {
+     text-align: center;
+ }
+ 
+ .skills img {
+     width: 50px;
+     padding: 20px;
+ }
 
+ /* Animation */
 
-
-/* Typography */
-
-h1 {
-    font-size: 3.5rem;
-    font-family: 'Libre Baskerville';
-    font-weight: 900;
-
-}
-
-h2 {
-    font-size: 2rem;
-    text-align: center;
-
-
-}
-
-h2.tag {
-    font-family: 'Libre Baskerville';
-    font-weight: 900;
-    margin: 0px;
-    padding: 0px;
-}
-
-
-
-/* About Me Section */
-
-.about-me p {
-    display: flex;
-    margin: 0 auto;
-    text-align: center;
-    padding: 100px;
-    padding-bottom: 100px;
-    width: 80%;
-    font-size: 1.4rem;
-    opacity: 95%;
-    overflow: hidden;
-   
-}
-
-/* Skills */
-
-.skills {
-    text-align: center;
-}
-
-.skills img {
-    width: 50px;
-    padding: 20px;
-}
-
-
-
-/* Footer Section */
-
-footer {
-    
-    display: grid;
-    background-color: hsl(240, 100%, 10%); 
-    letter-spacing: 0.4px;
-    text-align: center;
-}
-
-/* Animation? */
-
-/*.gif-image {
-  display: none;
-  position: absolute;
-  transition: opacity 0.5s;
-
-}*/
-
-.portfolio-item:hover #test2 {
+ .portfolio-item:hover #test2 {
   display: block;
   opacity: 1;
   
 }
 
-/
+
 .portfolio-item:hover#test {
   height: 100%;
  
@@ -216,67 +192,67 @@ footer {
   width: 100%;
 
  }
-/*
-.portfolio-item:hover#test img {
-  display: none;
-  
-}
-
-.portfolio-item:hover#beaut {
-  display: block;
-  
-}
-*//
-
-
-
-
-
-/* Responsive Design */
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
+ 
+ 
+ 
+ /* Footer Section */
+ 
+ footer {
+     
+     display: grid;
+     background-color: hsl(240, 100%, 10%); 
+     letter-spacing: 0.4px;
+     text-align: center;
+ }
+ 
+ 
+ /* Responsive Design */
+ 
+ /* Responsive layout - makes a two column-layout instead of four columns */
+ @media screen and (max-width: 900px) {
+    
+     .about-me p {
+       width: 80%;
+       overflow: hidden;
+       margin: 0 auto;
+       padding: 5rem 0;
+       text-align: center;
+       align-content: center;
+     }
+     .mel {
+       border-radius: 15rem;
+       width: 15rem;
+       
+       }
+ 
+       .intro h1, .intro h2 {
+        font-size: 3rem;
+                 
+         }
+ 
+       .intro h2
+       {
+         font-size: 1.5rem;
+       } 
+   }
    
-    .about-me p {
-      width: 80%;
-      overflow: hidden;
-      margin: 0 auto;
-      padding: 5rem 0;
-      text-align: center;
-      align-content: center;
-    }
-    .mel {
-      border-radius: 15rem;
-      width: 15rem;
-      
-      }
-
-      .intro h1, .intro h2 {
-       font-size: 3rem;
-                
-        }
-
-      .intro h2
-      {
-        font-size: 1.5rem;
-      } 
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .intro {
-       background-image: none;
-       background-color: hsla(240, 22%, 10%,0.5);
-       background-blend-mode: overlay;
-       margin-top: 0 auto;
-           }
-
-   .nav a {
+   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+   @media screen and (max-width: 600px) {
+     .intro {
         
-            font-size: 1.5rem;
-            text-align: center;
-            margin: 0 auto;
-            padding: 5px 2rem;
-            border-bottom: none;
-          }
-  }
+        background-color: hsla(240, 22%, 10%,0.5);
+        background-blend-mode: overlay;
+        margin-top: 0 auto;
+            }
+ 
+    .nav a {
+         
+             font-size: 1.5rem;
+             text-align: center;
+             margin: 0 auto;
+             padding: 5px 1rem;
+             border-bottom: none;
+           }
+   }
+
+
