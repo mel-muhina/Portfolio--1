@@ -1,0 +1,26 @@
+
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+ 
+}
+
+.portfolio-item {
+  width: 30%;
+  padding: 6px;
+ }
+
+.portfolio-item img {
+  width: 100%;
+}
+
+
+@media (max-width: 767px) {
+  .portfolio-item {
+    width: 100%;
+  }
+}
+
