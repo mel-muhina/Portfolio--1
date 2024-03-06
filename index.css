@@ -208,7 +208,7 @@ footer {
 
 /
 .portfolio-item:hover#test {
-  height: 25rem;
+  height: 100%;
  
 }
 

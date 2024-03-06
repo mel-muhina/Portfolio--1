@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-let beautyBegins = document.getElementById('test2');
+
+let beautyBegins = document.getElementById('beautyimg');
 let lvlUp = document.getElementById('lvlUpimg');
 let styling = document.getElementById('stylingimg');
 let teacozy = document.getElementById('teacozyimg');
