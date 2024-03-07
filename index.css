@@ -5,7 +5,7 @@
  
  
  body {
-  background-color: hsl(240, 100%, 10%);
+  background-color: hsl(240, 100%, 5%);
   margin: 0 auto;
   font-family: 'Nunito Sans';
   font-size: 16px;
@@ -78,7 +78,7 @@
   justify-content: center; /* Center the content horizontally */
   align-items: center; /* Center the content vertically */
   flex-direction: column; /* Stack items vertically */
- 
+  border-radius: 3rem;
  
   
  }
@@ -104,6 +104,7 @@
  
  .portfolio-item img {
    width: 100%;
+   border-radius: 1rem;
  }
  
  
@@ -179,6 +180,7 @@
  .portfolio-item:hover #test2 {
   display: block;
   opacity: 1;
+ 
   
 }
 
@@ -190,6 +192,7 @@
 
 .portfolio-item:hover img{
   width: 100%;
+  border-radius: 1rem;
 
  }
  
@@ -203,6 +206,8 @@
      background-color: hsl(240, 100%, 10%); 
      letter-spacing: 0.4px;
      text-align: center;
+     border-top-right-radius: 2rem;
+     border-top-left-radius: 2rem;
  }
  
  
@@ -247,7 +252,7 @@
  
     .nav a {
          
-             font-size: 1.5rem;
+             font-size: 1.2rem;
              text-align: center;
              margin: 0 auto;
              padding: 5px 1rem;
